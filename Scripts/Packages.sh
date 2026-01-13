@@ -75,7 +75,8 @@ UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "rtp2httpd" "stackia/rtp2httpd" "main"
-UPDATE_PACKAGE "adguardhome" "ZqinKing/luci-app-adguardhome" "main"
+UPDATE_PAKCAGE "adguardhome" "kenzok8/small-package" "main" "" "adguardhome"
+UPDATE_PACKAGE "luci-app-adguardhome" "ZqinKing/luci-app-adguardhome" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
